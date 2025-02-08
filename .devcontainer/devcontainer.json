@@ -43,7 +43,26 @@
     },
     "vscode": {
       "extensions": [
-        "Shopify.ruby-lsp"
+        "Shopify.ruby-lsp",
+        "aaron-bond.better-comments",
+        "wmaurer.change-case",
+        "streetsidesoftware.code-spell-checker",
+        "ms-vscode-remote.remote-containers",
+        "ms-azuretools.vscode-docker",
+        "kaiwood.endwise",
+        "github.vscode-github-actions",
+        "GitHub.vscode-pull-request-github",
+        "ecmel.vscode-html-css",
+        "oderwat.indent-rainbow",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "esbenp.prettier-vscode",
+        "jemmyw.rails-fast-nav",
+        "jduponchelle.rainbow-end",
+        "castwide.solargraph",
+        "sorbet.sorbet-vscode-extension",
+        "shardulm94.trailing-spaces",
+        "mosapride.zenkaku",
+        "rubocop.vscode-rubocop"
       ]
     }
   },
@@ -58,6 +77,6 @@
   "postCreateCommand": "bin/setup --skip-server",
 
   "postAttachCommand": {
-    "server": "bin/dev"
+    "server": "bin/dev -b 0.0.0.0"
   }
 }
