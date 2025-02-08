@@ -74,7 +74,7 @@ Rails.application.configure do
   config.hosts << pf_host
   config.hosts << "localhost:3000"
 
-  config.action_cable.allowed_request_origins = ["https://#{pf_host}", "http://localhost:3000"]
+  config.action_cable.allowed_request_origins = [ "https://#{pf_host}", "http://localhost:3000" ]
 
   # Raise error when a before_action's only/except options reference missing actions.
   config.action_controller.raise_on_missing_callback_actions = true
