@@ -65,7 +65,7 @@ group :development do
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
-  gem "hotwire-livereload", "~> 2.0.0"
+  gem "hotwire-livereload", "~> 2.1.1"
 end
 
 group :test do
